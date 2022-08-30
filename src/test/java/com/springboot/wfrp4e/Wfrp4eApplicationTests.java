@@ -1,4 +1,4 @@
-package com.placeholder.wfrp4e;
+package com.springboot.wfrp4e;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
