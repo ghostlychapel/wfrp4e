@@ -5,7 +5,7 @@ import java.util.List;
 
 public class RollDice {
 
-    public List rollD10() {
+    public void rollD10() {
 
         System.out.println("How many dice would you like to roll?");
 
@@ -16,31 +16,38 @@ public class RollDice {
         userDiceChoice = userInputValue.nextInt();
         int diceRollListTotal = 0;
         for (int d = 1; d <= userDiceChoice; d++) {
-            int x = random1to10();
+            int x = (random0to9())+1;
             diceRollList.add(x);
             diceRollListTotal += x;
         }
 
         System.out.println("Your dice roll total is " + diceRollListTotal + "\nYour dice rolls were as follows: \n" + diceRollList);
 
-        return diceRollList;
     }
 
-    public int rollD100() {
+    public void rollD100() {
 
-        int diceRoll10s = (random1to10()*10);
-        int diceRoll1s = random1to10();
-        int diceRoll100 = Math.addExact(diceRoll10s, diceRoll1s);
+        int diceRoll100;
+        int diceRoll10s = random10s();
+        int diceRoll1s = random0to9();
+
+        if (diceRoll10s == 0 && diceRoll1s == 0){
+            diceRoll100 = 100;
+        }
+        else {
+            diceRoll100 = Math.addExact(diceRoll10s, diceRoll1s);
+        }
         System.out.println("Your roll for d100 is " + diceRoll100 + "\nYour dice rolls were as follows: \n" + "The 10's die rolled for " + diceRoll10s + ". And the 1's die rolled for " + diceRoll1s);
-
-        return diceRoll100;
     }
 
-    private int random1to10() {
+    private int random0to9() {
 
-        int diceRoll = (int) (Math.floor(Math.random() * 10) +1);
+        return (int) Math.floor(Math.random() * 10);
+    }
 
-        return diceRoll;
+    private int random10s() {
+
+        return (int) Math.floor(Math.random() * 10)*10;
     }
 
 }
