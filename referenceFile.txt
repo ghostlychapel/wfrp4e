@@ -1,0 +1,305 @@
+Character sheet
+Page 1
+	Character Info
+		Name
+			User input
+		Species
+			User input
+			1d100+20XP
+				01-89 Human
+				90-93 Halfling
+				94-97 Dwarf
+				98 Gnome
+				99 High Elf
+				100(00) Wood Elf
+		Class
+		1d100
+		User Input
+			Academics
+				Career
+					Apothecary
+					Engineer
+					Lawyer
+					Nun
+					Physician
+					Priest
+					Scholar
+					Wizard
+			Burghers
+				Career
+					Agitator
+					Artisan
+					Beggar
+					Investigator
+					Merchant
+					Rat Catcher
+					Townsman
+					Watchman
+			Courtiers
+				Career
+					Advisor
+					Duelist
+					Envoy
+					Noble
+					Servant
+					Spy
+					Warden
+			Peasants
+				Career
+					Bailiff
+					Hedge Witch
+					Herbalist
+					Hunter
+					Miner
+					Mystic
+					Scout
+					Villager
+			Rangers
+				Career
+					Bounty Hunter
+					Coachman
+					Entertainer
+					Flagellant
+					Messenger
+					Pedlar
+					Road Warden
+			Riverfolk
+				Career
+					Boatman
+					Huffer
+					Riverwarden
+					Riverwoman
+					Seaman
+					Smuggler
+					Stevedore
+					Wrecker
+			Rogues
+				Career
+					Bawd
+					Charlatan
+					Fence
+					Grave Robber
+					Outlaw
+					Racketeer
+					Theif
+					Witch
+			Warriors
+				Career
+					Cavalryman
+					Guard
+					Knight
+					Pit Fighter
+					Protagonist
+					Soldier
+					Slayer
+					Warrior Priest
+		Career Level
+
+		Career Path
+		    User input
+			Career 1, Career 2, Career 3, etc
+		Status
+		Age
+		    User input | Maximums: Human: ~60, Dwarf: 200+, Gnome: ~500, Halfling: ~120, Elf: 1000s
+		    Human: 15+1d10
+		    Dwarf: 15+10d10
+		    Elf: 30+10d10
+		    Gnome:20+10d10
+		    Halfling: 15+5d10
+		Height
+		    Human: 4'9"+2d10", if rolls 10, user choice to add a roll
+		    Dwarf: 4'3"+1d10"
+		    Gnome: 3'10"+1d10"
+		    Elf: 5'11"+1d10"
+		    Halfling: 3'1"+1d10"
+		Hair
+		    Roll 2d10
+		    User input
+		Eyes
+		    Roll 2d10, elves may roll twice
+		    User input
+	Characteristics
+		Attributes
+		Initial
+		        Advances (modified by career, skills, talents)
+		        Current
+			2d10+(Species) +50 XP
+				Reassign rolls +25 XP
+					Reroll & Reassign OR User Input out of 100
+			Species     [WS, BS, S , T , I , Ag, Dex, Int, WP, Fel]
+			Human       [20, 20, 20, 20, 20, 20, 20,  20,  20, 20]
+			Dwarf       [30, 20, 20, 30, 20, 10, 30,  20,  40, 10]
+			Gnome       [20, 10, 10, 15, 30, 30, 30,  30,  40, 15]
+			Halfling    [10, 30, 10, 20, 20, 20, 30,  20,  30, 30]x
+			Elf         [30, 30, 20, 20, 40, 30, 30,  30,  30, 20]
+                Weapon Skill (WS)
+                Ballistic Skill (BS)
+                Strength (S)
+                Toughness (T)
+                Initiative (I)
+                Agility (Ag)
+                Dexterity (Dex)
+                Intelligence (Int)
+                Willpower (WP)
+                Fellowship (Fel)
+		Characteristic Bonus
+			Attribute/10 < use floor division
+			Wounds
+				Human(SBx(2xTB)+WPB)
+				Dwarf(SBx(2xTB)+WPB)
+				Gnome(2xTB+WPB)
+				Halfling((2xTB)+WPB)
+				Elf(SBx(2xTB)+WPB)
+			Fate
+				Human(2)
+				Dwarf(0)
+				Gnome(2)
+				Halfling(0)
+				Elf(0)
+			Resilience
+				Human(1)
+				Dwarf(2)
+				Gnome(0)
+				Halfling(2)
+				Elf(0)
+			Extra Points
+				Human(3)
+				Dwarf(2)
+				Gnome(2)
+				Halfling(3)
+				Elf(2)
+			Movement
+				Human(4)
+				Dwarf(3)
+				Gnome(3)
+				Halfling(3)
+				Elf(5)
+    Fate
+        Fate = Species + Extra Points
+        Fortune = Initial Fortune = Initial Fate
+	Resilience
+		Resilience = Species + Extra Points
+		Resolve = Initial Resolve = Initial Fate
+		Motivation = User inout
+	Experience
+		Current
+		Spent
+		Total
+	Skills
+		Basic Skills
+            Species: User picks 3 w/ 5 advances, and 3 with 3 advances
+                Humans (Reiklander): [Amimal Care, Charm, Cool, Evaluate, Gossip, Haggle, Language [Bretonnian, Wastelander], Leadership, Lore (Reikland), Melee (Basic), Ranged (Bow)]
+                Dwarfs: [Consume Alcohol, Cool, Endurance, Entertain (Storytelling), Evaluate, Intimidate, Language (Khazalid), Lore [Dwarfs, Geology, Metallurgy], Melee (Basic), Trade (Any)]
+                Gnomes: [Channeling (Ulgu), Charm, Consume Alcohol, Dodge, Entertain (Any), Gossip, Haggle, Language (Ghassaly), Language (Magick), Language (Wastelander), Outdoor Survival, Stealth (Any)]
+                Halflings: [Charm, Consume Alcohol, Dodge, Gamble, Haggle, Intuition, Language (Mootish), Lore (Reikland), Perception, Sleight of Hand, Stealth (Any), Trade (Cook)]
+                High Elves: [Cool, Entertain (Sing), Evaluate, Language (Eltharin), Leadership, Melee (Basic), Navigation, Perception, Play (Any), Ranged (Bow), Sail, Swim]
+                Wood Elves: [Athletics, Climb, Endurance, Entertain (Sing), Intimidate, Language (Eltharin), Melee (Basic), Outdoor Survival, Perception, Ranged (Bow), Stealth (Rural), Track]
+                    Name
+                    Characteristic
+                    Advances
+                    Skill
+        Career Skills
+            Come with 8 skills; 40 advances but no more than 10 per skill; If 5 advances to every skill, career can be completed and move to a new one
+		Grouped & Advanced Skills
+			Name
+			Characteristic
+			Advances
+			Skill
+	Talents
+        Species: User picks if talents have 'or' | roll 1d100 for any 'random' talents, if user already has talent, user may advance it if advancable, or reroll
+            Humans (Reiklander): [Doomed, Savvy OR Suave, 3 Random]
+            Dwarfs: [Magic Resistance, Night Vision, Read/Write OR Relentless, Resolute OR Strong-minded, Sturdy]
+            Gnomes: [Beneath Notice OR Suffused with Ulgu, Luck OR Mimic, Night Vision, Fisherman OR Read/Write, Second Sight OR Sixth Sense, Small]
+            Halflings: [Acute Sense (Taste), Night Vision, Resistance (Chaos), Small, 2 Random]
+            High Elves: [Acute Sense (Sight), Coolheaded OR Savvy, Night Vision, Second Sight OR Sixth Sense, Read/Write]
+            Wood Elves: [Acute Sense (Sight), Hardy OR Second Sight, Night Vision, Read/Write OR Very Resilient, Rover]
+                Talent Name
+                Times Taken
+                Description
+        Career Talents
+            Come with 4 talents
+	Ambitions
+		Short-term
+		    User input | +50XP when complete
+		Long-term
+		    User input | + 500XP when complete, with choice to retire | new character will gain half of earned XP
+	Party
+		Party Name
+		    User input
+		Short-term
+		    User input | +50XP when complete
+		Long-term
+		    User input | + 500XP when complete, with choice to retire | new character will gain half of earned XP
+		Members
+		    User input | select from DB
+Page 2
+	Armour
+		Name
+		Locations
+		Encumbrance (Enc)
+		Armour Points (AP)
+		Qualities
+	Armor Points
+		Head 01-09
+		Left Arm 10-24
+		Right Arm 25-44
+		Body 45-79
+		Left Leg 80-89
+		Right Leg 90-00
+		Shield
+	Trappings
+	    Class Trappings
+	        Academics: [Clothing, Dagger, Pouch, Sling Bag: [Writing Kit, 1d10 sheets of Parchment]]
+	        Burghers: [Cloak, Clothing, Dagger, Hat, Pouch, Sling Bag: [Lunch]]
+	        Courtiers: [Dagger, Fine Clothing, Pouch: [Tweezers, Ear Pick, Comb]]
+	        Peasants: [Cloak, Clothing, Dagger, Pouch, Sling Bag: [Rations (1 day)]]
+	        Rangers: [Cloak, Clothing, Dagger, Pouch, Backpack: [Tinderbox, Blanket, Rations (1 day)]]
+	        Riverfolk: [Cloak, Clothing, Dagger, Pouch, Sling Bag: [Flask of Spirits]]
+	        Rouges: Clothing, Dagger, Pouch, Sling Bag: [2 Candles, 1d10 matches, Hood OR Mask]]
+	        Warriors: [Clothing, Hand Weapon, Dagger, Pouch]
+        Career Trappings
+            Status Tier Starting Wealth
+                Brass: 2d10 brass pennies per Status level
+                Silver: 1d10 silver shillings per Status level
+                Gold: 1 Gold crown per status level
+		Name
+		    Human: Usually forename and surname | User input: Reikland/Empire: Germanic, Wasteland: Dutch/Belgian, Bretonnian: Medieval French
+		    Dwarf: Forename, Surname, Clan name | User input
+		    Elf/Wood Elf: 1d10 Elf Name Generator + Epithet | User input
+		    Halfling: Forenme (Shorthand of Given name), Surname (Clan name) | User input
+		Encumbrance (Enc)
+	Psychology
+		Optional
+	Corruption & Mutation
+		TBD
+	Wealth
+		D
+		SS
+		CC
+	Encumbrance
+		Weapons
+		Armor
+		Trappings
+		Max Encumbrance (Enc)
+		Total
+	Wounds
+		SB
+		TBx2
+		WPB
+		Hardy
+		Wounds
+	Weapons
+		Name
+		Group
+		Encumbrance (Enc)
+		Range/Reach
+		Damage
+		Qualities
+	Spells and Prayers
+		Name
+		TN
+		Range
+		Target
+		Duration
+		Effect
+		Sin
